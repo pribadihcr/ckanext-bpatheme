@@ -2,7 +2,7 @@
 from setuptools import setup
 
 install_requires=[
-    'pandas==0.24.2'
+    #'pandas==0.24.2'
 ]
 
 setup(

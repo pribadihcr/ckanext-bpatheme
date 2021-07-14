@@ -237,7 +237,7 @@ class CustomTheme(plugins.SingletonPlugin):
     def update_config_schema(self, schema):
         ignore_missing = toolkit.get_validator('ignore_missing')
         schema.update({
-            'ckanext.datawa.slip_harvester_token': [ignore_missing, unicode],
+            'ckanext.datawa.slip_harvester_token': [ignore_missing, str],
         })
 
         return schema
